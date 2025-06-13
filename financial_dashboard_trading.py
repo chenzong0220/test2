@@ -93,7 +93,7 @@ if choice == choices[4] :                                                       
 
 
 ## 轉變為datetime object.
-start_date = st.date_input("選擇開始日期", value=datetime.date(2023, 4, 17), min_value=datetime.date(2023, 4, 17), max_value=datetime.date(2025, 4, 17))
+start_date = st.date_input("選擇開始日期", value=datetime.date(2023, 4, 15), min_value=datetime.date(2023, 4, 15), max_value=datetime.date(2025, 4, 17))
 end_date = st.date_input("選擇結束日期", value=datetime.date(2025, 4, 17), min_value=datetime.date(2023, 4, 17), max_value=datetime.date(2025, 4, 17))
 
 ## 使用条件筛选选择时间区间的数据
